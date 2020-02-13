@@ -16,7 +16,7 @@
 		<div class="">
 			
 		       <!-- <img  src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\anits.jpg" class="img-responsive" width:"990 px" height:"190px" > -->
-		       <img style="-webkit-user-select: none;margin:auto;cursor: default;" src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\anits.jpg" width="100%" height=auto>
+		       <img style="-webkit-user-select: none;margin:auto;cursor: default;" src="pics\anits.jpg" width="100%" height=auto>
 	        </div>
 	    <div class="cons1">
         <h2>EX@M CELL<h2>
@@ -29,7 +29,7 @@
 		<hr class="light">
 		<div class="cons">
 			<div class="imgbox">
-         <img src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\hod.jpg "  alt="..." width="80" height=auto> </div>
+         <img src="pics\hod.jpg "  alt="..." width="80" height=auto> </div>
          <div class="content">
          	<h2>HEAD OF DEPARTMENT</h2>
         </div>
@@ -38,7 +38,7 @@
         <hr class="light">
          <div class="cons">
 			<div class="imgbox">
-         <img src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\mam2.jpg" class="img-responsive img-circle" alt="..." width="80" height="auto"> </div>
+         <img src="pics\mam2.jpg" class="img-responsive img-circle" alt="..." width="80" height="auto"> </div>
          <div class="content">
          	<h2>EXAM CO-ORDINATORS</h2>
          </div>
@@ -47,7 +47,7 @@
         <!-- <hr class="light"> -->
         <div class="cons">
 			<div class="imgbox">
-         <img src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\mam1.jpg" class="img-responsive img-circle" alt="..." width="80" height="auto"> </div>
+         <img src="pics\mam1.jpg" class="img-responsive img-circle" alt="..." width="80" height="auto"> </div>
          <div class="content">
          	<h2>EXAM CO-ORDINATORS</h2>
         </div>
@@ -96,8 +96,8 @@
                
                     <div class="card" style="width: 9rem;
                     height:9rem;margin-left: -10px;"> <div class="card-body">
-                        <a href="student.html">
-                    <img src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\question1.jpg"
+                        <a href="student.php">
+                    <img src="pics\question1.jpg"
                     alt="Paris" width="100" height="100"> <h5
                     class="card-title text-dark"style="font-size:
                     10px;">QUESTION PAPER</h5> <p class="card-text"></p>
@@ -114,9 +114,9 @@
          
                     <div class="card" style="width: 9rem; height:9rem;margin-left: 60px;"> <div
                     class="card-body">
-                    <a href="exec.html"> 
+                    <a href="teacherup1.php"> 
                     <img
-                    src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\key1.jpg"
+                    src="pics\key1.jpg"
                     alt="Paris" width="100" height="100"> <h5
                     class="card-title text-dark" style="font-size: 10px;">KEYS AND SCHEMA</h5> <p
                     class="card-text"> </p>
@@ -130,9 +130,9 @@
                  <centre>
                     <div class="card" style="width: 9rem; height:9rem;">
                             <div class="card-body">
-                                <a href="">
-                            	<img src="C:\Users\nikhi\OneDrive\Desktop\examc@ll\pics\admin.jpg" alt="Paris" width="100" height="100">
-                              <h5 class="card-title text-dark" style="font-size: 10px;">SEATING/ARRANGEMENT</h5>
+                                <a href="adminlogin/login/adminlogin.php">
+                            	<img src="pics\admin.jpg" alt="Paris" width="100" height="100">
+                              <h5 class="card-title text-dark" style="font-size: 10px;">Admin Login</h5>
                               <p class="card-text"> </p>
                              </a>
                             </div>

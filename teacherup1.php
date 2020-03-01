@@ -282,20 +282,6 @@ if (isset( $_FILES['scheme']['name']))
 
                         <label for="username"></label>
                         <input type="text" class="form-control" ariq-describedby="username" placeholder="Name">
-
-
-                        <label for="Branch">Branch:</label> <select>
-                            <option value="CSE">CSE </option>
-                            <option value="IT">IT </option>
-                            <option value="EEE">EEE</option>
-                            <option value="CIVIL">CIVIL</option>
-                            <option value="ECE">ECE</option>
-                            <option value="chemical">Chemical</option>
-                        </select>
-                        &nbsp;&nbsp;
-                        &nbsp;&nbsp;
-                        &nbsp;&nbsp;
-                        &nbsp;&nbsp;
                         <br>
 
 

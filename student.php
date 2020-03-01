@@ -10,8 +10,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <style>
         body {
-            background-image: "books.jpg";
-
+            background-image: url(stu.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
         }
 
         .avatar {
@@ -104,9 +108,9 @@
         <div class="wrapper">
             <div id="one">
 
-                <img src="pics\admin.jpg" alt="Avatar" class="avatar">
-                <h5 style:"font-family:sans-serif">Name:</h5>
-                <h5 style:"font-family:sans-serif">Register no:</h5>
+                <img src="img-avatar2.png" alt="Avatar" class="avatar">
+                <h5 style="font-family:sans-serif;">Name:</h5>
+                <h5 style="font-family:sans-serif;">Reisterno:</h5>
 
             </div>
             <div id="two">
@@ -160,7 +164,7 @@
                     </select>
 
                     <br>
-                    <button onclick="myFunction()">SEARCH</button>
+                    <button onclick="myFunction()" class="button">SEARCH</button>
 
                 </form>
             </div>

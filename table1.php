@@ -1,9 +1,8 @@
-
 <?php include 'files.php';?>
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "examportal";
 
 // Create connection
@@ -54,11 +53,18 @@ table, td, th {
 }
 </style>";
     // output data of each row
+    echo "<table>"
     while($row = $result->fetch_assoc()) {
 ?>
-        <tr><td><?php echo $row["sno"]?></td><td><?php echo $row["year"]?></td><td><?php echo $row["branch"]?></td><td><?php echo $row["subject"]?></td><td><?php echo $row["sem"]?></td><td><?php echo $row["mid"]?></td>
-<?php foreach ($files as $file): ?>
-<td><a href="downloads.php?file_id=<?php echo $file['id'] ?>" class="button">questionpaper</a>&nbsp<a href="" class="button">key</a>&nbsp<a href="" class="button">scheme</a></td>
+<tr>
+    <td><?php echo $row["sno"]?></td>
+    <td><?php echo $row["year"]?></td>
+    <td><?php echo $row["branch"]?></td>
+    <td><?php echo $row["subject"]?></td>
+    <td><?php echo $row["sem"]?></td>
+    <td><?php echo $row["mid"]?></td>
+    <?php foreach ($files as $file): ?>
+    <td><a href="table1.php?file_id=<?php echo $file['id'] ?>" class="button">questionpaper</a>&nbsp <a href="table1.php?file_id1=<?php echo $file['id'] ?>" class="button">key</a>&nbsp; <a href="table1.php?file_id2=<?php echo $file['id'] ?>" class="button">scheme</a></td>
 </tr>
 <?php endforeach;?>
 <?php
@@ -70,10 +76,12 @@ table, td, th {
 }
 $con->close();
 ?>
-<html> 
+<html>
+
 <body bgcolor="#D3D3D3">
-<form method="post" action="student.php">
-<br><br><br><br>
-<button onclick="myFunction()">BACK</button>
+    <form method="post" action="student.php">
+        <br><br><br><br>
+        <button onclick="myFunction()">BACK</button>
 </body>
+
 </html>
